@@ -1,0 +1,24 @@
+@import url(../styles/normalize.css);
+@import url(../styles/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/__core/header__core.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/cutlets/__blur/cutlets__blur.css);
+@import url(../blocks/cutlets/__main/cutlets__main.css);
+@import url(../blocks/cutlets/__photo/cutlets__photo.css);
+@import url(../blocks/cutlets/__subtitle/cutlets__subtitle.css);
+@import url(../blocks/cutlets/__title/cutlets__title.css);
+@import url(../blocks/cutlets/cutlets.css);
+
+@import url(../blocks/information/__text/information__text.css);
+@import url(../blocks/information/information.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__core/footer__core.css);
+@import url(../blocks/footer/__name/footer__name.css);
+@import url(../blocks/footer/footer.css);

@@ -1,0 +1,16 @@
+.cutlets__blur {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  height: 408px;
+  max-width: 100%;
+  top: 0;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+@media screen and (max-width: 737px) {
+  .cutlets__blur {
+    display: none;
+  }
+}

@@ -1,0 +1,32 @@
+.header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 25px 15px 25px 0;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 400;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 737px) {
+  .header__link {
+    align-items: center;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__link {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+}
